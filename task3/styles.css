@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.chat {
+    width: 30%;
+    margin: 20px auto;
+}
+
+.messages {
+    height: 400px;
+    width: 500px;
+    overflow-y: scroll;
+    border: 3px solid #2bd9d3;
+    padding: 10px;
+}
+
+input, button {
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+#sendButton {
+    color: white;
+    background-color: blue;
+}
+
+#locationButton {
+    color: white;
+    background-color: green;
+}
+
+.user-message {
+  text-align: right;
+}
+
+.server-message {
+  text-align: left;
+}
+.message-text {
+  display: inline-block;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: white;
+  border: 3px solid #2bd9d3;
+}

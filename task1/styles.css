@@ -1,0 +1,29 @@
+#button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 200px;
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border: none;
+  border-radius: 50%;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+}
+
+.icon_01 {
+  background-image: url("arrow-down-left-circle.svg");
+  background-size: contain;
+}
+
+.icon_02 {
+  background-image: url("arrow-down-left-circle-fill.svg");
+  background-size: contain;
+}

@@ -1,0 +1,12 @@
+#button {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 200px;
+  padding: 10px 20px;
+  background-color: red;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
